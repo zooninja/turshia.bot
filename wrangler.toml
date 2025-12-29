@@ -6,3 +6,7 @@ pages_build_output_dir = "dist"
 LLM_PROVIDER = "gemini"
 RATE_LIMIT_MAX = "30"
 RATE_LIMIT_WINDOW_SEC = "600"
+
+[[kv_namespaces]]
+binding = "RATE_KV"
+id = "04460646042f4b6d9802cdf493bc5fd1"
