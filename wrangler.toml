@@ -1,3 +1,8 @@
 name = "turshiabot"
 compatibility_date = "2024-12-01"
 pages_build_output_dir = "dist"
+
+[vars]
+LLM_PROVIDER = "gemini"
+RATE_LIMIT_MAX = "30"
+RATE_LIMIT_WINDOW_SEC = "600"
